@@ -1,8 +1,38 @@
+// html,
+// body,
+// #app,
+// h1,
+// h2 {
+//   margin: 0;
+//   padding: 0;
+// }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html,
 body,
 #app {
-  margin: 0;
-  padding: 0;
   height: 100%;
-  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+@font-face {
+  font-family: electronicFont;
+  src: url('@/assets/font/DS-DIGIT.TTF');
+}
+
+html {
+  min-width: 1024px;
+}
+
+body {
+  background: url('@/assets/images/bg.jpg') no-repeat center;
+  line-height: 1.15;
 }
